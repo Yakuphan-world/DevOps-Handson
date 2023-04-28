@@ -33,7 +33,7 @@ Ziel dieser praktischen Schulung ist es, eine Python Flask-Anwendung mit Dockerf
 ### 🔖 [Exec from and Shell form and CMD](https://github.com/Yakuphan-world/DevOps-Handson/tree/main/Docker/docker-10-difference-between-exec-form-shell-form-and-CMD-ENTRYPOINT-instructions)
 Zweck dieser praktischen Schulung ist es, den Schülern das Verständnis für die grundlegenden Vorgänge von Docker Swarm zu vermitteln.
 
-### 🔖 [Docker Logs, Top, Stats and Diff]([https://github.com/Yakuphan-world/DevOps-Handson/tree/main/Docker/docker-13-docker-logs-top-and-stats-diff-commands)
+### 🔖 [Docker Logs, Top, Stats and Diff](https://github.com/Yakuphan-world/DevOps-Handson/tree/main/Docker/docker-13-docker-logs-top-and-stats-diff-commands)
 Ziel dieser praktischen Schulung ist es, den Schülern Docker Compose näher zu bringen.
 
 
