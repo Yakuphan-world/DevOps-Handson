@@ -9,7 +9,7 @@ Terraform Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awes
 
 ## Index 📜
 
-### 🔖 [S1_terraform-01_Installation_Basic_Operations](https://github.com/Yakuphan-world/DevOps-Hands-on-Trainings/tree/main/Terraform/S1_terraform-01_Installation_Basic_Operations)
+### 🔖 [S1_terraform-01_Installation_Basic_Operations](https://github.com/Yakuphan-world/DevOps-Handson/tree/main/Terraform/S1_terraform-01_Installation_Basic_Operations)
 Zweck dieser praktischen Schulung ist es, den Schülern das Wissen über grundlegende Operationen in Terraform zu vermitteln.
 
 ### 🔖 [S2_terraform-02_Terraform_Commands_Varables_Conditonals_Loops](https://github.com/Yakuphan-world/DevOps-Hands-on-Trainings/tree/main/Terraform/S2_terraform-02_Terraform_Commands_Varables_Conditonals_Loops)
