@@ -20,3 +20,6 @@ Kubernetes is an open-source container orchestration platform that automates the
 
 ### 🔖 [Terraform](https://github.com/Yakuphan-world/DevOps-Handson/tree/main/Terraform)
 Terraform is an open-source infrastructure as code (IaC) tool that allows you to define, provision, and manage infrastructure resources across multiple cloud providers and on-premises data centers. It provides a platform-agnostic way to manage infrastructure, allowing you to use a consistent workflow to manage resources regardless of the underlying infrastructure.
+
+### 🔖 [Ansible](https://github.com/Yakuphan-world/DevOps-Handson/tree/main/Ansible)
+Ansible is an open-source automation tool that simplifies software deployment, configuration management, and infrastructure provisioning. It is a powerful and flexible tool that enables administrators to manage and automate IT tasks across a large number of servers or network devices from a single location.
