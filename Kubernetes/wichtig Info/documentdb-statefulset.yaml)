@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: documentdb
+spec:
+  selector:
+    matchLabels:
+      app: documentdb
+  serviceName: documentdb
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: documentdb
+    spec:
+      containers:
+        - name: documentdb
+          image: YOUR_MONGODB_IMAGE
+          ports:
+            - containerPort: 27017
+          envFrom:
+            - secretRef:
+                name: documentdb-secret
+          volumeMounts:
+            - name: data
+              mountPath: /data/db
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes:
+          - ReadWriteOnce
+        resources:
+          requests:
+            storage: 10Gi
