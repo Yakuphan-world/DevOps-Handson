@@ -14,3 +14,20 @@ metadata:
   name: documentdb-config
 data:
   connection-uri: mongodb://<username>:<password>@<host>:<port>/<database-name>
+
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: documentdb-pod
+spec:
+  containers:
+    - name: app-container
+      image: your-app-image
+      env:
+        - name: MONGODB_URI
+          valueFrom:
+            configMapKeyRef:
+              name: documentdb-config
+              key: connection-uri
