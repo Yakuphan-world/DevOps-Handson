@@ -7,3 +7,10 @@ data:
   service-a-url: <service-a-adresi>
   service-b-url: <service-b-adresi>
   ...
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: documentdb-config
+data:
+  connection-uri: mongodb://<username>:<password>@<host>:<port>/<database-name>
