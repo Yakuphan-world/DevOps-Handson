@@ -31,3 +31,6 @@ spec:
             configMapKeyRef:
               name: documentdb-config
               key: connection-uri
+
+
+aws eks create-cluster --name my-cluster --role-arn <eks-service-role-arn> --resources-vpc-config subnetIds=<subnet-ids>,securityGroupIds=<security-group-id>
