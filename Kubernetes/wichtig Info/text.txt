@@ -1,1 +1,6 @@
 Configmap ve Ingress yaml beraber calisilabilir ......
+
+export PS1="\[\e[1;31m\]\u\[\e[1;36m\]\[\033[m\]@k8sServer:\[\e[0m\]\[\e[1;32m\][\W]> \[\e[0m\]"
+
+alias c=clear
+alias k=kubectl
