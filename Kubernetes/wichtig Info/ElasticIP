@@ -1,1 +1,11 @@
 https://stackoverflow.com/questions/66902641/how-to-provide-elastic-ip-to-aws-eks-for-external-service-with-type-loadbalancer
+
+https://docs.aws.amazon.com/eks/latest/userguide/network-load-balancing.html
+
+https://armin.su/eks-load-balancers-with-static-ip-3a45d08ffbe4
+
+https://itnext.io/attaching-an-elastic-ip-to-eks-worker-node-f69b9d8fa521
+
+https://repost.aws/knowledge-center/eks-kubernetes-services-cluster
+
+https://aws.plainenglish.io/ip-discoverability-unravelling-automatic-assignment-of-elastic-ips-to-eks-worker-nodes-7f3885c66610
