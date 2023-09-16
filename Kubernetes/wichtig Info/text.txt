@@ -16,3 +16,9 @@ UNutulmamasi gerekenler
 -  Database security Group 
 
 - Subnet tagleme  kubernetes.io/cluster/my-cluster	owned
+
+-
+
+-
+
+-
